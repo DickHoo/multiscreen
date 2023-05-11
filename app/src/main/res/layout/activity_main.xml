@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_media_router"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="方式1（MediaRouter）" />
+
+    <Button
+        android:id="@+id/btn_media_router_change"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="修改方式1数据" />
+
+    <Button
+        android:id="@+id/btn_media_router_close"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="方式1关闭" />
+
+    <Button
+        android:id="@+id/btn_display_manager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="方式2（DisplayManager）" />
+
+    <Button
+        android:id="@+id/btn_display_manager_change"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="修改方式2数据" />
+
+    <Button
+        android:id="@+id/btn_display_manager_close"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="方式2关闭" />
+
+
+</LinearLayout>
